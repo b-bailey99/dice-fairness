@@ -44,7 +44,7 @@ p_val <- test$p.value
 
 # Results: 
 if (p_val < sig.level) {
-  print("We reject the null hypothesis and accept the alternative hypothesis; this dice is judged to be unfair")
+  print("We reject the null hypothesis and accept the alternative hypothesis; this die is judged to be unfair")
 } else {
-  print("We have insufficient evidence to reject the null hypothesis; this dice is judged to be fair")
+  print("We have insufficient evidence to reject the null hypothesis; this die is judged to be fair")
 }
